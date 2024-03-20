@@ -1,0 +1,14 @@
+**Database Name: mytickdb**
+
+
+
+**Admin Login Details**
+
+Username: admin@gmail.com
+Password: password
+
+
+**Theatre Login Details**
+
+Username: demo@gmail.com
+Password: password

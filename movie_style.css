@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.movie-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.movie-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.movie-card h2 {
+    color: #333;
+}
+
+.movie-card p {
+    color: #777;
+    margin: 5px 0;
+}

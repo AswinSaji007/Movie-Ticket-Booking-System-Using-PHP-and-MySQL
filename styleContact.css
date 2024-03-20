@@ -1,0 +1,171 @@
+*{
+    padding:0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing:border-box;
+}
+body{
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #171717;
+
+}
+nav{
+    background-color: #171717;
+    height: 70px;
+    width: 100%; 
+    box-shadow: 20px 10px 50px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;  
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+}
+nav ul li a{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 4px 5px;
+    border-radius: 3px;
+
+}
+a:hover{
+    background: rgb(0, 102, 255);
+    transition: 0.3s;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.logo{
+    width: 180px;
+    height: 90px;
+    position: absolute;
+    top: -20px;
+    margin-top: 35px;
+    left: 50px;
+    padding-bottom: 3%;
+}
+.contactus{
+    color: aliceblue;
+    padding-left: 610px;
+    padding-top: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.email{
+    color: aliceblue;
+    padding-left: 610px;
+    padding-top: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.instagram{
+    width: 100px;
+    margin-left: 300px;
+    font-size: 50px;
+    margin-top: -80px;
+    cursor: pointer;
+}
+.instagram a{
+    background: none;
+    color: #fff;
+}
+.instagram a :hover{
+    color: rgb(165, 5, 56);
+}
+.facebook{
+    width: 50px;
+    font-size: 50px;
+    margin-left: 470px;
+    margin-top: -66px;
+    color: rgb(125, 125, 226);
+    cursor: pointer;
+}
+.facebook a{
+    background: none;
+    color: #fff;
+}
+.facebook a :hover{
+    color: rgb(18, 18, 114);
+}
+.twitter{
+    width: 50px;
+    font-size: 50px;
+    margin-left: 630px;
+    margin-top: -66px;
+    color: rgb(40, 40, 144);
+    cursor: pointer;
+}
+.twitter a{
+    background: none;
+    color: #fff;
+}
+.twitter a :hover{
+    color: rgb(15, 88, 162);
+}
+.whatsapp{
+    width: 50px;
+    font-size: 50px;
+    margin-left: 800px;
+    margin-top: -66px;
+    color: rgb(34, 178, 34);
+    cursor: pointer;
+}
+.whatsapp a{
+    background: none;
+    color: #fff;
+}
+.whatsapp a :hover{
+    color: rgb(95, 228, 95);
+}
+.youtube{
+    width: 50px;
+    font-size: 50px;
+    margin-left: 980px;
+    margin-top: -66px; 
+    color: rgb(206, 12, 12);
+    cursor: pointer;
+}
+.youtube a{
+    background: none;
+    color: #fff;
+}
+.youtube a :hover{
+    color: rgb(179, 1, 1);
+}
+.linkdin{
+    width: 50px;
+    font-size: 50px;
+    margin-left: 1170px;
+    margin-top: -66px;
+    color: rgb(50, 50, 157);
+    cursor: pointer; 
+}
+.linkdin a{
+    background: none;
+    color: #fff;
+}
+.linkdin a :hover{
+    color: rgb(76, 116, 209);
+}
+
+.socialmedia{
+    height: 100px;
+    padding-top: 100px;
+    margin-top: 70px;
+}
+
+.footerimg{
+    padding-top: -10px;
+}

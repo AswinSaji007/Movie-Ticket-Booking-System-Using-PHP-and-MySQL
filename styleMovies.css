@@ -1,0 +1,509 @@
+*{
+    padding:0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing:border-box;
+}
+body{
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #171717;
+
+}
+nav{
+    background-color: #171717;
+    height: 70px;
+    width: 100%; 
+    box-shadow: 20px 10px 50px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;  
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+}
+nav ul li a{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 4px 5px;
+    border-radius: 3px;
+
+}
+a:hover{
+    background: rgb(0, 102, 255);
+    transition: 0.3s;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.logo{
+    width: 180px;
+    height: 90px;
+    position: absolute;
+    top: -20px;
+    margin-top: 35px;
+    left: 50px;
+    padding-bottom: 3%;
+}
+
+.category1{
+    width: 100%;
+    height: 65px;
+    margin-top: 90px;
+    color: #ffd100;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.column1{
+    float: left;
+    width: 19%;
+    padding: 35px;
+    margin-left: 10px;
+    box-shadow: 0 1.9rem 3rem -0.75rem hsla(0, 0%, 0%, 0.356);
+    border-radius: 5rem;
+}
+.row{
+    display: table;
+    clear: both;
+}
+
+/*------------Movies1-------------*/
+
+
+.img1 img{
+    border-radius: 10px;
+}
+.img1 a{
+    background: none;
+}
+.description1{
+    margin-top: -35px;
+}
+.playbutton1{
+    width: 30%;
+    height: 60px;
+    font-size: 40px;
+    color: white;
+    border-radius: 50%;
+    margin:-50px;
+    margin-bottom: 20px;
+    padding: 0px 50px;
+    cursor: pointer;
+    color: rgb(233, 157, 15);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    -webkit-transition-property: box-shadow, transform;
+}
+.playbutton1 :hover{
+    color: red;
+    transition: 0.5s;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.5);
+}
+.playbutton1 a{
+    background: none;
+    color: rgb(233, 157, 15);
+}
+.name1 p{
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+.quality1{
+    width: 16%;
+    height: 22px;
+    background: linear-gradient(130deg, orange, yellow,orange);
+    color: black;
+    padding-left: 5px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-radius: 4px;
+}
+.year1{
+    background-color: black;
+    font-weight: bold;
+    width: 21%;
+    height: 23px;
+    max-height: 60%;
+    display: block;
+    border-radius: 3px;
+    margin-top: 7px;
+    padding-bottom: 20px;
+    padding-left: 4px;
+}
+.year1 p{
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.star1{
+    width: 70%;
+    color: rgb(255, 255, 0);
+    display: block;
+}
+.rating1{
+    color: black;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: bold;
+    background: linear-gradient(130deg, rgb(4, 75, 85), rgb(107, 247, 247), rgb(4, 75, 85));
+    width: 13%;
+    padding: 0px 3px;
+    border-radius: 5px;
+}
+.time1{
+    color: wheat;
+}
+
+/*-------movie2-------*/
+
+.img2 img{
+    border-radius: 10px;
+}
+.playbutton2{
+    width: 30%;
+    height: 60px;
+    font-size: 40px;
+    color: white;
+    border-radius: 50%;
+    margin: -50px;
+    margin-bottom: 20px;
+    padding: 0px 50px;
+    cursor: pointer;
+    color:  rgb(233, 157, 15);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    -webkit-transition-property: box-shadow, transform;
+}  
+.playbutton2 :hover{
+    color: red;
+    transition: 0.5s;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.5);
+}
+.description2{
+    margin-top: -35px;
+}
+.name2 p{
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.quality2{
+    width: 16%;
+    height: 22px;
+    background: linear-gradient(130deg, orange, yellow,orange);
+    color: black;
+    padding-left: 5px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-radius: 4px;
+}
+.year2{
+    background-color: black;
+    font-weight: bold;
+    width: 21%;
+    height: 23px;
+    max-height: 60%;
+    display: block;
+    border-radius: 3px;
+    margin-top: 7px;
+    padding-bottom: 20px;
+    padding-left: 4px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.star2{
+    width: 70%;
+    color: rgb(255, 255, 0);
+    display: block;
+    margin-top: px;
+}
+.rating2{
+    color: black;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: bold;
+    background: linear-gradient(130deg, rgb(4, 75, 85), rgb(107, 247, 247), rgb(4, 75, 85));
+    width: 13%;
+    padding: 0px 3px;
+    border-radius: 5px;
+}
+.time2{
+    color: wheat;
+}
+
+/*----------Movie3----------*/
+
+
+.img3 img{
+    border-radius: 10px;
+}
+.playbutton3{
+    width: 30%;
+    height: 60px;
+    font-size: 40px;
+    color: white;
+    border-radius: 50%;
+    margin: -50px;
+    margin-bottom: 20px;
+    padding: 0px 50px;
+    cursor: pointer;
+    color: rgb(233, 157, 15);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    -webkit-transition-property: box-shadow, transform;
+}
+.playbutton3 :hover{
+    color: red;
+    transition: 0.5s;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.5);
+}  
+.description3{
+    margin-top: -35px;
+}
+.name3 p{
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.quality3{
+    width: 16%;
+    height: 22px;
+    background: linear-gradient(130deg, orange, yellow,orange);
+    color: black;
+    padding-left: 5px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-radius: 4px;
+}
+.year3{
+    background-color: black;
+    font-weight: bold;
+    width: 21%;
+    height: 23px;
+    max-height: 60%;
+    display: block;
+    border-radius: 3px;
+    margin-top: 7px;
+    padding-bottom: 20px;
+    padding-left: 4px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.star3{
+    width: 70%;
+    color: rgb(255, 255, 0);
+    display: block;
+    margin-top: px;
+}
+.rating3{
+    color: black;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: bold;
+    background: linear-gradient(130deg, rgb(4, 75, 85), rgb(107, 247, 247), rgb(4, 75, 85));
+    width: 13%;
+    padding: 0px 3px;
+    border-radius: 5px;
+}
+.time3{
+    color: wheat;
+}
+
+
+/*---------------Movie4-------------*/
+
+
+.img4 img{
+    border-radius: 10px;
+}
+.playbutton4{
+    width: 30%;
+    height: 60px;
+    font-size: 40px;
+    color: white;
+    border-radius: 50%;
+    margin: -50px;
+    margin-bottom: 20px;
+    padding: 0px 50px;
+    cursor: pointer;
+    color: rgb(233, 157, 15);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    -webkit-transition-property: box-shadow, transform;
+} 
+.playbutton4 :hover{
+    color: red;
+    transition: 0.5s;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.5);
+} 
+.description4{
+    margin-top: -35px;
+}
+.name4 p{
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.quality4{
+    width: 16%;
+    height: 22px;
+    background: linear-gradient(130deg, orange, yellow,orange);
+    color: black;
+    padding-left: 5px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-radius: 4px;
+}
+.year4{
+    background-color: black;
+    font-weight: bold;
+    width: 21%;
+    height: 23px;
+    max-height: 60%;
+    display: block;
+    border-radius: 3px;
+    margin-top: 7px;
+    padding-bottom: 20px;
+    padding-left: 4px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.star4{
+    width: 70%;
+    color: rgb(255, 255, 0);
+    display: block;
+    margin-top: px;
+}
+.rating4{
+    color: black;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: bold;
+    background: linear-gradient(130deg, rgb(4, 75, 85), rgb(107, 247, 247), rgb(4, 75, 85));
+    width: 13%;
+    padding: 0px 3px;
+    border-radius: 5px;
+}
+.time4{
+    color: wheat;
+}
+
+
+/*-------------Movie5----------*/
+
+
+.img5 img{
+    border-radius: 10px;
+}
+.playbutton5{
+    width: 30%;
+    height: 60px;
+    font-size: 40px;
+    color: white;
+    border-radius: 50%;
+    margin: -50px;
+    margin-bottom: 20px;
+    padding: 0px 50px;
+    cursor: pointer;
+    color: rgb(233, 157, 15);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    -webkit-transition-property: box-shadow, transform;
+}
+.playbutton5 :hover{
+    color: red;
+    transition: 0.5s;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.5);
+}  
+.description5{
+    margin-top: -35px;
+}
+.name5 p{
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.quality5{
+    width: 16%;
+    height: 22px;
+    background: linear-gradient(130deg, orange, yellow,orange);
+    color: black;
+    padding-left: 5px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-radius: 4px;
+}
+.year5{
+    background-color: black;
+    font-weight: bold;
+    width: 21%;
+    height: 23px;
+    max-height: 60%;
+    display: block;
+    border-radius: 3px;
+    margin-top: 7px;
+    padding-bottom: 20px;
+    padding-left: 4px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.star5{
+    width: 70%;
+    color: rgb(255, 255, 0);
+    display: block;
+    margin-top: px;
+}
+.rating5{
+    color: black;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: bold;
+    background: linear-gradient(130deg, rgb(4, 75, 85), rgb(107, 247, 247), rgb(4, 75, 85));
+    width: 13%;
+    padding: 0px 3px;
+    border-radius: 5px;
+}
+.time5{
+    color: wheat;
+}
+
+
+/*----------category2-----------*/
+
+
+.category2{
+    width: 100%;
+    height: 70px;
+    margin-left: px;
+    margin-top: 590px;
+    color: #ffd100;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+.column2{
+    float: left;
+    width: 19%;
+    padding: 35px;
+    margin-left: 10px;
+    box-shadow: 0 1.9rem 3rem -0.75rem hsla(0, 0%, 0%, 0.356);
+    border-radius: 5rem;
+}
+.category2 h1{
+    width: 100%;
+    height: 100%;
+    margin-top: -500px;
+}

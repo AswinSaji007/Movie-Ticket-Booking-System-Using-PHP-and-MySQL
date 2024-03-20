@@ -1,0 +1,42 @@
+<?php
+
+include("connection.php");
+?>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylelogin.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+        <title>MyTick</title>
+    </head>
+ <body>
+        <section>
+            <div class="form-box">
+                <div class="form-value">
+                    <form action="login1.php" method="POST">
+                        <h2>Login</h2>
+
+                        <div class="inputbox">
+                            <ion-icon name="mail-outline"></ion-icon>
+                            <input type="email" name="email" id="email" required>
+                            <label for="">Email</label>
+                        </div>
+                        <div class="inputbox">
+                            <ion-icon name="lock-closed-outline"></ion-icon>
+                            <input type="password" name="password" id="password" required>
+                            <label for="">Password</label>
+                        </div>
+                        <div class="loginbutton">
+                        <input type="submit" name="submit" value="Login">
+                        </div>
+                        <div class="register">
+                        <p>Don't Have An Account?<a href="signup.php"> Register</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+          </section>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
